@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-red:#fe0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+.nav{
+    display: flex;
+    height: 10vh;
+    border: solid;
+    justify-content: space-evenly;
+    padding: 0 50px 0 50px;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.lista1{
+    display: flex;
+    gap: 50px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+.lista1 li:hover{
+    color: var(--color-red);
+    cursor: pointer;
+}
+.nombre{
+    color: var(--color-red);
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Righteous';
+}
+.fondo{
+    background-image: url(https://marketplace.canva.com/EAE99WbuQXg/1/0/1600w/canva-black-and-red-modern-futuristic-gaming-background-desktop-wallpaper-P097nPJ1Fjc.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 30px;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin-left: -50px;
+}
+
+.container h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--color-red);
+    font-family: "Righteous";
+}
+.bienvenidos{
+    color: white;
+    font-size: 100px;
+    font-family: "Righteous";
+    font-weight: 700;
+}
+.perfil{
+    width: 250px;
+}
+
+.container2{
+    background: linear-gradient(rgb(25, 25, 25), rgb(70, 1, 3));
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.div2 h1{
+    font-size: 45px;
+    font-family: "Righteous";
+}
+.cont{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.der{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.der img{
+    width: 70%;
+    height: 90%;
+    border-radius: 50%;
+}
+.isq{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+}
